@@ -3,7 +3,7 @@ package STATIC;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class GeneratorAndCracker{
+public class Generator{
 
     public static String alfabeLower = "abcdefghytzxvnmlsipou";
     public static String alfabeUpper = alfabeLower.toUpperCase().replace("İ", "I");
