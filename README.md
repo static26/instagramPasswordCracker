@@ -1,1 +1,1 @@
-# instagramPasswordCracker
+# InstagramPasswordCracker
