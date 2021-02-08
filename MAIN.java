@@ -31,8 +31,8 @@ public class MAIN {
                 int randSize = ThreadLocalRandom.current().nextInt(5,16);
 
 
-                String string = GeneratorAndCracker.generateRandomString(randSize);
-                if(GeneratorAndCracker.ArraySearch(string, ignoreds)){
+                String string = Generator.generateRandomString(randSize);
+                if(Generator.ArraySearch(string, ignoreds)){
                     System.out.println("Trying " + string);
                     try{
                         IGClient targetInstagram = IGClient.builder()
