@@ -13,7 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class MAIN {
 
-    public static String githubLink = "https://github.com/static26";
+    public static String githubLink = "https://github.com/supeer1";
 
     public static void main(String[] args) throws Exception{
         ArrayList<String> ignoreds = new ArrayList<>();
